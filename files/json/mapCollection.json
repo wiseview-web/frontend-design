@@ -1,0 +1,150 @@
+{
+    "mapCollection": [
+        {
+            "id": 1,
+            "coords": [30.5234, 50.4501],
+            "src": "img/cards/image_01.webp",
+            "alt": "apartment image",
+            "title": "2 BR Apartment Jumeirah Golf Estate",
+            "price": "AED 85,000",
+            "listen": "Listed on 24 May 2025",
+            "location": "Jumeirah Golf Estate, Dubai",
+            "loadingImg": "img/cards/1x1.png",
+            "gallery": [
+                "img/cards/image_01.webp",
+                "img/cards/image_02.webp",
+                "img/cards/image_03.webp",
+                "img/cards/image_04.webp",
+                "img/cards/image_05.webp",
+                "img/cards/image_06.webp"
+            ],
+            "characteristic": [
+                {
+                    "icon": "img/icons/bed.svg",
+                    "value": "3 Beds"
+                },
+                {
+                    "icon": "img/icons/bath.svg",
+                    "value": "2 Bathrooms"
+                },
+                {
+                    "icon": "img/icons/square-meters.svg",
+                    "value": "304 m²"
+                }
+            ],
+            "label": {
+                "classTtl": "card__label popular-lb",
+                "src": "img/icons/popular.svg",
+                "alt": "popular label icon",
+                "text": "POPULAR"
+            }
+        },
+        {
+            "id": 2,
+            "coords": [34.8044, 48.4647],
+            "src": "img/cards/image_01.webp",
+            "alt": "apartment image",
+            "title": "1 BR Apartment District 1 ",
+            "price": "AED 852,000",
+            "listen": "Listed on 28 May 2025",
+            "location": "Jumeirah Golf Estate, Dubai",
+            "loadingImg": "img/cards/1x1.webp",
+            "gallery": [
+                "img/cards/image_01.webp",
+                "img/cards/image_02.webp",
+                "img/cards/image_03.webp",
+                "img/cards/image_04.webp",
+                "img/cards/image_05.webp",
+                "img/cards/image_06.webp"
+            ],
+            "characteristic": [
+                {
+                    "icon": "img/icons/bed.svg",
+                    "value": "4 Beds"
+                },
+                {
+                    "icon": "img/icons/bath.svg",
+                    "value": "2 Bathrooms"
+                },
+                {
+                    "icon": "img/icons/square-meters.svg",
+                    "value": "220 m²"
+                }
+            ],
+            "label": {}
+        },
+        {
+            "id": 3,
+            "coords": [24.031, 49.8397],
+            "src": "img/cards/image_01.webp",
+            "alt": "apartment image",
+            "title": "2 BR Apartment Act One Tower",
+            "price": "AED 185,000",
+            "listen": "Listed on 24 May 2025",
+            "location": "Jumeirah Golf Estate, Dubai",
+            "loadingImg": "img/cards/1x1.webp",
+            "gallery": [
+                "img/cards/image_01.webp",
+                "img/cards/image_02.webp",
+                "img/cards/image_03.webp",
+                "img/cards/image_04.webp",
+                "img/cards/image_05.webp",
+                "img/cards/image_06.webp"
+            ],
+            "characteristic": [
+                {
+                    "icon": "img/icons/bed.svg",
+                    "value": "2 Beds"
+                },
+                {
+                    "icon": "img/icons/bath.svg",
+                    "value": "2 Bathrooms"
+                },
+                {
+                    "icon": "img/icons/square-meters.svg",
+                    "value": "304 m²"
+                }
+            ],
+            "label": {
+                "classTtl": "card__label popular-lb",
+                "src": "img/icons/popular.svg",
+                "alt": "popular label icon",
+                "text": "POPULAR"
+            }
+        },
+        {
+            "id": 1,
+            "coords": [30.5234, 50.4501],
+            "src": "img/cards/image_01.webp",
+            "alt": "apartment image",
+            "title": "2 BR Apartment Jumeirah Golf Estate",
+            "price": "AED 85,000",
+            "listen": "Listed on 24 May 2025",
+            "location": "Jumeirah Golf Estate, Dubai",
+            "loadingImg": "img/cards/1x1.png",
+            "gallery": [
+                "img/cards/image_01.webp",
+                "img/cards/image_02.webp",
+                "img/cards/image_03.webp",
+                "img/cards/image_04.webp",
+                "img/cards/image_05.webp",
+                "img/cards/image_06.webp"
+            ],
+            "characteristic": [
+                {
+                    "icon": "img/icons/bed.svg",
+                    "value": "3 Beds"
+                },
+                {
+                    "icon": "img/icons/bath.svg",
+                    "value": "2 Bathrooms"
+                },
+                {
+                    "icon": "img/icons/square-meters.svg",
+                    "value": "304 m²"
+                }
+            ],
+            "label": {}
+        }
+    ]
+}

@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Property page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css?_v=20260205180323" />
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css?_v=20260205180323" rel="stylesheet" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js?_v=20260205180323"></script>
+</head>
+
+<body>
+	<div class="reference_image"
+		style="position: absolute; top: 0; left: 0; z-index: 9999; width: 100%; height: auto; margin: 0 auto; text-align: center; pointer-events: none;">
+		<img id="reference_img" src="page_references/Property_page.png"
+			style="width: 1440px; height: auto; margin: 0 auto; pointer-events: none; opacity: 0.0;"
+			alt="reference image">
+	</div>
+	<div class="wrapper">
+		<header class="header" data-lp data-scroll="100">
+			<div class="header__cnt-header">
+				<a href="#" class="header__logo">
+					<picture>
+						<source srcset="img/mobile-logo.svg" media="(max-width: 991.98px)" />
+						<source srcset="img/logo-desk.svg" media="(min-width: 991.99px)" />
+						<img src="img/mobile-logo.svg" alt="Опис зображення" />
+					</picture>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__mobile-top">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="tel:+97145409916" class="menu__link menu__link--number">
+									<i class="_icon-iphone"></i><span>+971 4 540 9916</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="@" class="menu__link">
+									<i class="_icon-what-sec"></i>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="@" class="menu__link menu__link--fav">
+									<i class="_icon-fav-sec"></i>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu">
+						<img src="img/menu-desk.svg" alt="burger icon" />
+					</button>
+				</div>
+				<nav class="menu__mobile">
+					<div class="menu__top">
+						<ul class="menu__lang">
+							<li>
+								<i class="_icon-lang"></i>
+							</li>
+							<li><a href="#" class="active">En</a></li>
+							<li><a href="#">Ru</a></li>
+						</ul>
+						<button type="button" class="menu__icon-close icon-menu">
+							<img src="img/menu-mob.svg" alt="menu icon" />
+						</button>
+					</div>
+					<div class="menu__mob-body">
+						<div class="menu__links">
+							<div class="menu__prop">
+								<h2 class="menu__ttl">PROPERTIES</h2>
+								<ul>
+									<li><a href="#">Buy</a></li>
+									<li><a href="#">Rent</a></li>
+									<li><a href="#">Off Plan</a></li>
+									<li><a href="#">Holiday Homes</a></li>
+									<li><a href="#">Commercial</a></li>
+									<li>
+										<a href="#">Renovation Service</a>
+									</li>
+									<li>
+										<a href="#">List Your Properties</a>
+									</li>
+								</ul>
+							</div>
+							<div class="menu__prop">
+								<h2 class="menu__ttl">ABOUT</h2>
+								<ul>
+									<li><a href="#">Our Team</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<ul class="menu__about">
+							<li class="menu__sub-item">
+								<h2 class="menu__ttl">Address</h2>
+								<ul>
+									<li>
+										<address>
+											Office 802, Marina Plaza, Dubai
+											Marina, Dubai, UAE
+										</address>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__sub-item">
+								<h2 class="menu__ttl">Phones</h2>
+								<ul>
+									<li>
+										<a href="tel:+97145409916">+971 4 540 9916</a>
+									</li>
+									<li>
+										<a href="tel:+971588180252">+971 58 818 0252</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__sub-item">
+								<h2 class="menu__ttl">Email</h2>
+								<ul>
+									<li>
+										<a href="mailto:WiseView@com.ae">WiseView@com.ae</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__sub-item">
+								<h2 class="menu__ttl">Whatsapp</h2>
+								<ul>
+									<li><a href="#">+971 4 540 9916</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="menu__social">
+							<h2 class="menu__ttl">Follow Us</h2>
+							<ul>
+								<li>
+									<a href="#" target="_blank" class="_icon-facebook"></a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="_icon-instagram"></a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="_icon-twitter"></a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="_icon-linkedin"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="property">
+			<nav class="property__breadcrumbs breadcrumbs">
+				<div class="breadcrumbs__cnt">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Back to Listing
+							</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Property for Sale</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__current">2 BR Apartment Jumeirah Golf Estate</span>
+						</li>
+					</ul>
+					<ul class="breadcrumbs__mob-list">
+						<li>
+							<button type="button" class="breadcrumbs__mob-btn">
+								<i class="_icon-share"></i>
+							</button>
+						</li>
+						<li>
+							<button type="button" class="breadcrumbs__mob-btn">
+								<i class="_icon-fav-sec"></i>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="property__about">
+				<div class="property__cnt">
+					<div class="property__gallery gallery-prop">
+						<div class="gallery-prop__top">
+							<div class="gallery-prop__info">
+								<h1>2 BR Apartment Jumeirah Golf Estate</h1>
+								<p>
+									Apartment for Sale in
+									<a href="#">Elitz 2 by Danube, Jumeirah Golf
+										Estate, Dubai</a>
+								</p>
+							</div>
+							<ul class="gallery-prop__actions">
+								<li>
+									<button class="gallery-prop__btn btn btn--icon">
+										Share
+										<i class="_icon-share"></i>
+									</button>
+								</li>
+								<li>
+									<button class="gallery-prop__btn btn btn--icon">
+										Add to favorite
+										<i class="_icon-fav-sec"></i>
+									</button>
+								</li>
+							</ul>
+						</div>
+						<div class="gallery-prop__slider swiper">
+							<div data-gallery class="gallery-prop__wrapper swiper-wrapper">
+								<a href="img/main/image_02.webp" class="gallery-prop__slide swiper-slide">
+									<img src="img/main/image_02.webp" class="swiper-lazy" alt="image" />
+								</a>
+								<a href="img/cards/image_04.webp" class="gallery-prop__slide swiper-slide">
+									<img src="img/cards/image_04.webp" class="swiper-lazy" alt="image" />
+								</a>
+								<a href="img/cards/image_03.webp" class="gallery-prop__slide swiper-slide">
+									<img src="img/cards/image_03.webp" class="swiper-lazy" alt="image" />
+								</a>
+								<a href="img/cards/image_02.webp" class="gallery-prop__slide swiper-slide">
+									<img src="img/cards/image_02.webp" class="swiper-lazy" alt="image" />
+								</a>
+								<a href="img/cards/image_01.webp" class="gallery-prop__slide swiper-slide">
+									<img src="img/cards/image_01.webp" class="swiper-lazy"
+										alt="image print your db name image" />
+								</a>
+							</div>
+							<button type="button" class="gallery-prop__button">
+								<i>
+									<img src="img/icons/all-photos.svg" alt="all photo icon" />
+								</i>
+								All photos
+							</button>
+							<div class="gallery-prop__s-p s-p"></div>
+							<div class="gallery-prop__labels">
+								<div class="gallery-prop__label lb limited">
+									<i>
+										<img src="img/icons/limited.svg" alt="limited publication icon" />
+									</i>
+									limited publication
+								</div>
+								<div class="gallery-prop__label lb lb--green">
+									<i>
+										<img src="img/icons/verified.svg" alt="verified icon" />
+									</i>
+									verified
+								</div>
+								<div class="gallery-prop__label lb lb--pink">
+									<i>
+										<img src="img/icons/super-agent.svg" alt="super agent icon" />
+									</i>
+									super agent
+								</div>
+							</div>
+							<div class="gallery-prop__labels-sec">
+								<div class="gallery-prop__label lb lb--red">
+									Sold Out
+								</div>
+								<div class="gallery-prop__label lb lb--yellow">
+									Reserved
+								</div>
+								<div class="gallery-prop__label lb lb--green-sec">
+									Available
+								</div>
+								<div class="gallery-prop__label lb lb--violet">
+									Coming Soon
+								</div>
+								<div class="gallery-prop__label lb lb--blue">
+									Under Construction
+								</div>
+								<div class="gallery-prop__label lb lb--light-blue">
+									Ready to Move In
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="property__info info-prop">
+						<div class="info-prop__characteristic">
+							<div class="info-prop__top">
+								<p>AED 852,000 - 999,000</p>
+								<span># 1169</span>
+							</div>
+							<div class="info-prop__price">
+								<p>1,226 AED per m²</p>
+								<span> | Listed on 30 May 2025 </span>
+							</div>
+							<ul>
+								<li>
+									<i>
+										<img src="img/icons/bed.svg" alt="icon bed" />
+									</i>
+									3 Beds
+								</li>
+								<li>
+									<i>
+										<img src="img/icons/bath.svg" alt="icon bathroom" />
+									</i>
+									2 Bathrooms
+								</li>
+								<li>
+									<i>
+										<img src="img/icons/balcony.svg" alt="icon balcony" />
+									</i>
+									Balcony
+								</li>
+								<li>
+									<i>
+										<img src="img/icons/square-meters.svg" alt="icon square meters" />
+									</i>
+									304 - 324  m²
+								</li>
+								<li>
+									<i>
+										<img src="img/icons/available.svg" alt="icon 2 units available" />
+									</i>
+									2 units available
+								</li>
+								<li>
+									<i>
+										<img src="img/icons/floor.svg" alt="icon floor" />
+									</i>
+									25 floors
+								</li>
+							</ul>
+						</div>
+						<ul class="info-prop__list">
+							<li>
+								<button type="button" class="info-prop__btn btn btn--icon-sec">
+									<i class="_icon-export"></i>
+									Brochure
+								</button>
+							</li>
+							<li>
+								<button type="button" class="info-prop__btn btn btn--icon-sec">
+									Floor plans
+								</button>
+							</li>
+							<li>
+								<button type="button" class="info-prop__btn btn btn--icon-sec">
+									Presentations
+								</button>
+							</li>
+						</ul>
+					</div>
+					<div class="property__down">
+						<div class="property__characteristic char-prop">
+							<div class="char-prop__info">
+								<h3>About</h3>
+								<p class="char-prop__text">
+									Experience sophisticated urban living in
+									this stylish studio apartment at Elitz 2
+									by Danube. Designed with a focus on
+									contemporary elegance and practicality,
+									this residence offers an open layout,
+									sleek finishes, and a well-appointed
+									bathroom. The apartment features calming
+									pool and community views, creating an
+									inviting retreat within the city. With a
+									designated parking space, this home is
+									perfect for those seeking both
+									convenience and comfort.
+								</p>
+								<p class="char-prop__start">
+									<span>Construction start at</span>
+									<span>01/04/2026</span>
+								</p>
+								<a href="#" class="char-prop__link">read more</a>
+								<p class="char-prop__date">
+									Project completion: December 2025
+								</p>
+							</div>
+							<div class="char-prop__lists">
+								<div class="char-prop__list first">
+									<h3>Property Highlights</h3>
+									<ul>
+										<li>Studio with Modern Layout</li>
+										<li>3 Bathrooms</li>
+										<li>Reserved Parking Space</li>
+										<li>
+											Unique & special payment plan 1%
+										</li>
+									</ul>
+								</div>
+								<div class="char-prop__list second">
+									<h3>Unit Details</h3>
+									<ul>
+										<li>Ready to move in</li>
+										<li>Low floor</li>
+										<li>View: land mark</li>
+										<li>
+											Kitchen: Open and Fully Fitted
+										</li>
+										<li>Bathrooms: 2</li>
+										<li>BUA: 700 sq.ft</li>
+										<li>No. of Parking: 01</li>
+										<li>Furnished: No</li>
+										<li>Security Deposit: 5%</li>
+									</ul>
+								</div>
+								<div class="char-prop__list third">
+									<h3>Amenities and facilities</h3>
+									<ul>
+										<li>Studio with Modern Layout</li>
+										<li>3 Bathrooms</li>
+										<li>Reserved Parking Space</li>
+										<li>
+											Unique & special payment plan 1%
+										</li>
+									</ul>
+								</div>
+								<div class="char-prop__details">
+									<h3>Project Details</h3>
+									<ul>
+										<li>
+											<p>Unit Reference:</p>
+											<span>MS-23138</span>
+										</li>
+										<li>
+											<p>Permit Number:</p>
+											<span>71342050834</span>
+										</li>
+										<li>
+											<p>Purpose:</p>
+											<span>For Sale</span>
+										</li>
+										<li>
+											<p>Status:</p>
+											<span>Completed</span>
+										</li>
+										<li>
+											<p>Emirate:</p>
+											<span>Dubai</span>
+										</li>
+										<li>
+											<p>Property Name:</p>
+											<span>Asayel 3</span>
+										</li>
+										<li>
+											<p>Parking Slot:</p>
+											<span>1</span>
+										</li>
+										<li>
+											<p>Added On:</p>
+											<span>17 Mar 2025</span>
+										</li>
+									</ul>
+								</div>
+								<div class="char-prop__floor">
+									<h3>Floor plans</h3>
+									<ul>
+										<li>
+											<div class="char-prop__image">
+												<img src="img/floor_plan/image_01.webp" alt="floor plan" />
+											</div>
+										</li>
+										<li>
+											<div class="char-prop__image">
+												<img src="img/floor_plan/image_01.webp" alt="floor plan" />
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<aside class="property__aside aside-prop">
+							<div class="aside-prop__consultant">
+								<p class="aside-prop__status">
+									Enquire Now
+								</p>
+								<p class="aside-prop__about">
+									Get an approximate valudation in a
+									matter of minutes.
+								</p>
+								<div class="aside-prop__profile">
+									<div class="aside-prop__image">
+										<img src="img/consultant/image_01.webp" alt="consultant image" />
+									</div>
+									<div class="aside-prop__info">
+										<p class="aside-prop__name">
+											Hayat Daham
+										</p>
+										<p class="aside-prop__sales">
+											Sales Consultant
+										</p>
+										<ul class="aside-prop__actions">
+											<li>
+												<a href="#" class="aside-prop__btn-sm btn btn--icon"><i
+														class="_icon-iphone"></i>Call</a>
+											</li>
+											<li>
+												<a href="#" class="aside-prop__btn btn btn--icon"><i>
+														<img src="img/whats_logo.svg"
+															alt="whatsapp logo" /></i>Whatsapp</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<article data-da=".property,767.98" class="aside-prop__renovation">
+								<div class="aside-prop__picture">
+									<img src="img/renovetion/image_01.webp" alt="renovation image" />
+								</div>
+								<div class="aside-prop__renovation-body">
+									<h3>Renovation Services</h3>
+									<h2>
+										Transform your vision into a
+										masterpiece!
+									</h2>
+									<div class="aside-prop__text">
+										<p>
+											We are a team of passionate and
+											talented designers who are
+											dedicated to creating innovative
+											and stylish spaces that reflect
+											your unique vision.
+										</p>
+										<a href="#" target="_blank" class="aside-prop__site-link">Visit DLUXX
+											website</a>
+									</div>
+									<a href="#" class="aside-prop__link link">Discover our unique offer</a>
+								</div>
+							</article>
+							<div class="aside-prop__quiz">
+								<h3>
+									Feeling Lost <br />
+									on Where to Live?
+								</h3>
+								<p>
+									Take a minute to answer 10 quick
+									questions
+								</p>
+								<a href="#" target="_blank" class="aside-prop__quiz-btn btn btn--gold">Start the
+									Quiz</a>
+								<div class="aside-prop__img">
+									<img src="img/quiz/image_01.svg" alt="quiz image" />
+								</div>
+							</div>
+						</aside>
+					</div>
+					<div class="char-prop__location">
+						<h3>Location</h3>
+						<div data-tabs data-tabs-animate="1000" class="char-prop__tabs tabs">
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">
+									<i class="_icon-transport"></i>
+									Transport
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-schools"></i>
+									Schools
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-malls"></i>
+									Malls
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-hospitals"></i>
+									Hospitals
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-airports"></i>
+									Airport
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-bed"></i>
+									Hotels
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-landmarks"></i>
+									Lendmarks
+								</button>
+								<button type="button" class="tabs__title">
+									<i class="_icon-sport"></i>
+									Sport
+								</button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body">
+									<p class="tabs__ttl">
+										<span>Transport:</span> No nearby
+										metro stations
+									</p>
+									<ul class="char-prop__loc-details">
+										<li>
+											<p>Palm Jumeirah</p>
+											<span>35.6 km</span>
+										</li>
+										<li>
+											<p>
+												Al Maktoum International
+												Airport
+											</p>
+											<span> 50.2 km</span>
+										</li>
+										<li>
+											<p>La Mer</p>
+											<span>25.0 km</span>
+										</li>
+										<li>
+											<p>Dubai Mall</p>
+											<span>25.0 km</span>
+										</li>
+										<li>
+											<p>The Walk JBR</p>
+											<span>31.7 km</span>
+										</li>
+										<li>
+											<p>Burj Al Arab</p>
+											<span>31.7 km</span>
+										</li>
+										<li>
+											<p>
+												Dubai International Airport
+											</p>
+											<span>31.7 km</span>
+										</li>
+									</ul>
+									<p class="char-prop__walks">
+										Walk times are supplied by Google
+										Maps and should be accurate to
+										within 5 minutes. The kilometre
+										distances are calculated in a
+										straight line. The actual driving
+										route distance may vary.
+									</p>
+								</div>
+								<div class="tabs__body">Контент 2 таба</div>
+								<div class="tabs__body">Контент 3 таба</div>
+								<div class="tabs__body">Контент 4 таба</div>
+								<div class="tabs__body">Контент 5 таба</div>
+								<div class="tabs__body">Контент 6 таба</div>
+								<div class="tabs__body">Контент 7 таба</div>
+								<div class="tabs__body">Контент 8 таба</div>
+							</div>
+						</div>
+
+						<div id="map" class="char-prop__map"></div>
+						<ul class="char-prop__social">
+							<li>
+								<a target="_blank" href="#"><img src="img/icons/facebook.svg" alt="facebook icon" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#"><img src="img/icons/x.svg" alt="twitter icon" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#"><img src="img/icons/instagram.svg"
+										alt="instagram icon" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#"><img src="img/icons/in.svg" alt="linkedin icon" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#"><img src="img/icons/telegram.svg" alt="telegram icon" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#"><img src="img/icons/whats.svg" alt="whatsapp icon" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="property__available available">
+				<div class="available__cnt">
+					<div class="available__block-header block-header block-header--left">
+						<div class="block-header__body">
+							<h2>More available in Jumeirah Golf Estate</h2>
+						</div>
+						<a data-da=".available__cnt,767.98" href="#" class="block-header__btn btn">See All
+							Properties</a>
+					</div>
+					<ul class="available__list list">
+						<li>
+							<article class="available__card card">
+								<div class="card__gallery">
+									<div class="card__slider swiper">
+										<div class="card__wrapper swiper-wrapper">
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_05.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+												<div class="swiper-lazy-preloader"></div>
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_02.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_03.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_04.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_06.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+										</div>
+										<button type="button" class="card__swiper-button-prev">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<button type="button" class="card__swiper-button-next">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<div class="card__s-p s-p"></div>
+									</div>
+									<div class="card__label popular-lb">
+										<i>
+											<img src="img/icons/popular.svg" alt="icon popular label" />
+										</i>
+										POPULAR
+									</div>
+
+									<a href="#" class="card__map">
+										<i>
+											<img src="img/icons/map.svg" alt="icon map" />
+										</i>
+									</a>
+									<button type="button" class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											viewBox="0 0 24 24" fill="none">
+											<rect width="24" height="24" fill="white" />
+											<path
+												d="M4.31804 6.31804C3.90017 6.7359 3.5687 7.23198 3.34255 7.77795C3.1164 8.32392 3 8.90909 3 9.50004C3 10.091 3.1164 10.6762 3.34255 11.2221C3.5687 11.7681 3.90017 12.2642 4.31804 12.682L12 20.364L19.682 12.682C20.526 11.8381 21.0001 10.6935 21.0001 9.50004C21.0001 8.30656 20.526 7.16196 19.682 6.31804C18.8381 5.47412 17.6935 5.00001 16.5 5.00001C15.3066 5.00001 14.162 5.47412 13.318 6.31804L12 7.63604L10.682 6.31804C10.2642 5.90017 9.7681 5.5687 9.22213 5.34255C8.67616 5.1164 8.09099 5 7.50004 5C6.90909 5 6.32392 5.1164 5.77795 5.34255C5.23198 5.5687 4.7359 5.90017 4.31804 6.31804V6.31804Z"
+												fill="#B09676" stroke="#B09676" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</svg>
+									</button>
+								</div>
+								<div class="card__body">
+									<div class="card__about">
+										<h3 class="hidden">
+											2 BR Apartment Jumeirah Golf
+											Estate
+										</h3>
+										<h3 class="card__listen">
+											Listed on 24 May 2025
+										</h3>
+										<p class="card__price">
+											AED 85,000
+										</p>
+										<a href="#" target="_blank" class="card__title">
+											2 BR Apartment Jumeirah Golf
+											Estate
+										</a>
+									</div>
+									<p class="card__location">
+										Jumeirah Golf Estate, Dubai
+									</p>
+									<ul class="card__characteristic">
+										<li class="card__item">
+											<i><img src="img/icons/bed.svg" alt="icon" /></i>3 Beds
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/bath.svg" alt="icon" /></i>2 Bathrooms
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/square-meters.svg" alt="icon" /></i>304 m²
+										</li>
+									</ul>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="available__card card">
+								<div class="card__gallery">
+									<div class="card__slider swiper">
+										<div class="card__wrapper swiper-wrapper">
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_05.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+												<div class="swiper-lazy-preloader"></div>
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_02.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_03.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_04.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_06.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+										</div>
+
+										<button type="button" class="card__swiper-button-prev">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<button type="button" class="card__swiper-button-next">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<div class="card__s-p s-p"></div>
+									</div>
+									<button type="button" class="card__map">
+										<i>
+											<img src="img/icons/map.svg" alt="icon map" />
+										</i>
+									</button>
+									<button type="button" class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											viewBox="0 0 24 24" fill="none">
+											<rect width="24" height="24" fill="white" />
+											<path
+												d="M4.31804 6.31804C3.90017 6.7359 3.5687 7.23198 3.34255 7.77795C3.1164 8.32392 3 8.90909 3 9.50004C3 10.091 3.1164 10.6762 3.34255 11.2221C3.5687 11.7681 3.90017 12.2642 4.31804 12.682L12 20.364L19.682 12.682C20.526 11.8381 21.0001 10.6935 21.0001 9.50004C21.0001 8.30656 20.526 7.16196 19.682 6.31804C18.8381 5.47412 17.6935 5.00001 16.5 5.00001C15.3066 5.00001 14.162 5.47412 13.318 6.31804L12 7.63604L10.682 6.31804C10.2642 5.90017 9.7681 5.5687 9.22213 5.34255C8.67616 5.1164 8.09099 5 7.50004 5C6.90909 5 6.32392 5.1164 5.77795 5.34255C5.23198 5.5687 4.7359 5.90017 4.31804 6.31804V6.31804Z"
+												fill="#B09676" stroke="#B09676" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</svg>
+									</button>
+								</div>
+								<div class="card__body">
+									<div class="card__about">
+										<h3 class="hidden">
+											1 BR Apartment District 1
+										</h3>
+										<h3 class="card__listen">
+											Listed on 24 May 2025
+										</h3>
+										<p class="card__price">
+											AED 852,000
+										</p>
+										<a href="#" target="_blank" class="card__title">
+											1 BR Apartment District 1
+										</a>
+									</div>
+									<p class="card__location">
+										Jumeirah Golf Estate, Dubai
+									</p>
+									<ul class="card__characteristic">
+										<li class="card__item">
+											<i><img src="img/icons/bed.svg" alt="icon" /></i>
+											3 Beds
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/bath.svg" alt="icon" /></i>2 Bathrooms
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/square-meters.svg" alt="icon" /></i>220 m²
+										</li>
+									</ul>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="available__card card">
+								<div class="card__gallery">
+									<div class="card__slider swiper">
+										<div class="card__wrapper swiper-wrapper">
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_05.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+												<div class="swiper-lazy-preloader"></div>
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_02.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_03.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_04.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_06.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+										</div>
+										<button type="button" class="card__swiper-button-prev">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<button type="button" class="card__swiper-button-next">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<div class="card__s-p s-p"></div>
+									</div>
+									<div class="card__label popular-lb">
+										<i>
+											<img src="img/icons/popular.svg" alt="icon popular label" />
+										</i>
+										POPULAR
+									</div>
+
+									<a href="#" class="card__map">
+										<i>
+											<img src="img/icons/map.svg" alt="icon map" />
+										</i>
+									</a>
+									<button type="button" class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											viewBox="0 0 24 24" fill="none">
+											<rect width="24" height="24" fill="white" />
+											<path
+												d="M4.31804 6.31804C3.90017 6.7359 3.5687 7.23198 3.34255 7.77795C3.1164 8.32392 3 8.90909 3 9.50004C3 10.091 3.1164 10.6762 3.34255 11.2221C3.5687 11.7681 3.90017 12.2642 4.31804 12.682L12 20.364L19.682 12.682C20.526 11.8381 21.0001 10.6935 21.0001 9.50004C21.0001 8.30656 20.526 7.16196 19.682 6.31804C18.8381 5.47412 17.6935 5.00001 16.5 5.00001C15.3066 5.00001 14.162 5.47412 13.318 6.31804L12 7.63604L10.682 6.31804C10.2642 5.90017 9.7681 5.5687 9.22213 5.34255C8.67616 5.1164 8.09099 5 7.50004 5C6.90909 5 6.32392 5.1164 5.77795 5.34255C5.23198 5.5687 4.7359 5.90017 4.31804 6.31804V6.31804Z"
+												fill="#B09676" stroke="#B09676" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</svg>
+									</button>
+								</div>
+								<div class="card__body">
+									<div class="card__about">
+										<h3 class="hidden">
+											2 BR Apartment Jumeirah Golf
+											Estate
+										</h3>
+										<h3 class="card__listen">
+											Listed on 24 May 2025
+										</h3>
+										<p class="card__price">
+											AED 85,000
+										</p>
+										<a href="#" target="_blank" class="card__title">
+											2 BR Apartment Jumeirah Golf
+											Estate
+										</a>
+									</div>
+									<p class="card__location">
+										Jumeirah Golf Estate, Dubai
+									</p>
+									<ul class="card__characteristic">
+										<li class="card__item">
+											<i><img src="img/icons/bed.svg" alt="icon" /></i>
+											3 Beds
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/bath.svg" alt="icon" /></i>
+											2 Bathrooms
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/square-meters.svg" alt="icon" /></i>304 m²
+										</li>
+									</ul>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="available__card card">
+								<div class="card__gallery">
+									<div class="card__slider swiper">
+										<div class="card__wrapper swiper-wrapper">
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_05.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+												<div class="swiper-lazy-preloader"></div>
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_02.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_03.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_04.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+											<a href="#" target="_blank" class="card__slide swiper-slide">
+												<img data-src="img/cards/image_06.webp" src="img/cards/1x1.webp"
+													class="swiper-lazy" alt="image" />
+											</a>
+										</div>
+										<button type="button" class="card__swiper-button-prev">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<button type="button" class="card__swiper-button-next">
+											<img src="img/icons/btn-arr.svg" alt="icon" />
+										</button>
+										<div class="card__s-p s-p"></div>
+									</div>
+									<button type="button" class="card__map">
+										<i>
+											<img src="img/icons/map.svg" alt="icon map" />
+										</i>
+									</button>
+									<button type="button" class="card__favorite">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+											viewBox="0 0 24 24" fill="none">
+											<rect width="24" height="24" fill="white" />
+											<path
+												d="M4.31804 6.31804C3.90017 6.7359 3.5687 7.23198 3.34255 7.77795C3.1164 8.32392 3 8.90909 3 9.50004C3 10.091 3.1164 10.6762 3.34255 11.2221C3.5687 11.7681 3.90017 12.2642 4.31804 12.682L12 20.364L19.682 12.682C20.526 11.8381 21.0001 10.6935 21.0001 9.50004C21.0001 8.30656 20.526 7.16196 19.682 6.31804C18.8381 5.47412 17.6935 5.00001 16.5 5.00001C15.3066 5.00001 14.162 5.47412 13.318 6.31804L12 7.63604L10.682 6.31804C10.2642 5.90017 9.7681 5.5687 9.22213 5.34255C8.67616 5.1164 8.09099 5 7.50004 5C6.90909 5 6.32392 5.1164 5.77795 5.34255C5.23198 5.5687 4.7359 5.90017 4.31804 6.31804V6.31804Z"
+												fill="#B09676" stroke="#B09676" stroke-width="2" stroke-linecap="round"
+												stroke-linejoin="round" />
+										</svg>
+									</button>
+								</div>
+								<div class="card__body">
+									<div class="card__about">
+										<h3 class="hidden">
+											2 BR Apartment Jumeirah Golf
+											Estate
+										</h3>
+										<h3 class="card__listen">
+											Listed on 24 May 2025
+										</h3>
+										<p class="card__price">
+											AED 85,000
+										</p>
+										<a href="#" target="_blank" class="card__title">
+											2 BR Apartment Jumeirah Golf
+											Estate
+										</a>
+									</div>
+									<p class="card__location">
+										Jumeirah Golf Estate, Dubai
+									</p>
+									<ul class="card__characteristic">
+										<li class="card__item">
+											<i><img src="img/icons/bed.svg" alt="icon" /></i>
+											3 Beds
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/bath.svg" alt="icon" /></i>2 Bathrooms
+										</li>
+										<li class="card__item">
+											<i><img src="img/icons/square-meters.svg" alt="icon" /></i>304 m²
+										</li>
+									</ul>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="property__renovation renovation renovation--blue">
+				<div class="renovation__cnt">
+					<div class="renovation__image">
+						<img src="img/renovetion/image_02.webp" alt="renovation image" />
+					</div>
+					<div class="renovation__body renovation__body--blue">
+						<p class="renovation__serv">holiday homes</p>
+						<h3 class="renovation__ttl">
+							Dubai’s <span>luxury selection</span> of
+							vacation rentals
+						</h3>
+						<div class="renovation__text">
+							<p>
+								Discover luxury living with Stayluxx, where
+								we bring you vacation rentals in Dubai's
+								prime locations. Our mission is simple: to
+								blend the comfort of home with the luxury of
+								a hotel. Reluxxation like never before.
+							</p>
+							<a href="#">Visit STAYLUXX website</a>
+						</div>
+						<a target="_blank" href="#" class="renovation__link link">Discover our unique offer</a>
+					</div>
+				</div>
+			</section>
+			<section class="property__news news">
+				<div class="news__cnt">
+					<div class="news__block-header block-header block-header--left">
+						<div class="block-header__body">
+							<h2>News & Insights</h2>
+							<p>
+								Explore the diverse tapestry of Dubai’s most
+								sought-after areas and communities.
+							</p>
+						</div>
+						<a target="_blank" data-da=".news__cnt,767.98" href="#" class="news__btn btn btn--gold">Read
+							more articles</a>
+					</div>
+					<ul class="news__list">
+						<li>
+							<article class="news__card card-news">
+								<a href="#" target="_blank" class="card-news__image">
+									<img src="img/news/image_01.webp" alt="news image" />
+								</a>
+								<div class="card-news__body">
+									<h3 class="hidden">
+										Why Invest in Dubai’s Real Estate? A
+										Look into the Future
+									</h3>
+									<a href="#">
+										Why Invest in Dubai’s Real Estate? A
+										Look into the Future
+									</a>
+									<p>
+										In the heart of the Middle East,
+										Dubai shines as a beacon of
+										progress, luxury, and opportunity.
+									</p>
+									<div class="card-news__action">
+										<a href="#" target="_blank">read more</a>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="news__card card-news">
+								<a href="#" target="_blank" class="card-news__image">
+									<img src="img/news/image_02.webp" alt="news image" />
+								</a>
+								<div class="card-news__body">
+									<h3 class="hidden">
+										The Rise of Luxury Off-Plan
+										Investments in Dubai
+									</h3>
+									<a href="#">
+										The Rise of Luxury Off-Plan
+										Investments in Dubai
+									</a>
+									<p>
+										Dubai’s skyline is not just an
+										assortment of architectural marvels;
+										it’s a testament to the city’s
+										unrelenting ambition and...
+									</p>
+									<div class="card-news__action">
+										<a href="#" target="_blank">read more</a>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="news__card card-news">
+								<a href="#" target="_blank" class="card-news__image">
+									<img src="img/news/image_03.webp" alt="news image" />
+								</a>
+								<div class="card-news__body">
+									<h3 class="hidden">
+										Freehold Zones in the UAE
+									</h3>
+									<a href="#">Freehold Zones in the UAE</a>
+									<p>
+										The United Arab Emirates (UAE) is a
+										land of endless opportunities,
+										offering a blend of modernity and
+										tradition that captivates residents
+										and investors alike. One of the most
+										attractive featur...
+									</p>
+									<div class="card-news__action">
+										<a href="#" target="_blank">read more</a>
+									</div>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__cnt">
+				<div class="footer__column">
+					<a href="index.html" class="footer__logo"><img src="img/banner-logo.svg" alt="logo" /></a>
+					<ul class="footer__about">
+						<li class="footer__sub-item">
+							<h2 class="footer__ttl">Address</h2>
+							<ul>
+								<li>
+									<address>
+										Office 802, Marina Plaza, Dubai
+										Marina, Dubai, UAE
+									</address>
+								</li>
+							</ul>
+						</li>
+						<li class="footer__sub-item">
+							<h2 class="footer__ttl">Phones</h2>
+							<ul>
+								<li>
+									<a href="tel:+97145409916">+971 4 540 9916</a>
+								</li>
+								<li>
+									<a href="tel:+971588180252">+971 58 818 0252</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer__sub-item">
+							<h2 class="footer__ttl">Email</h2>
+							<ul>
+								<li>
+									<a href="mailto:WiseView@com.ae">WiseView@com.ae</a>
+								</li>
+							</ul>
+						</li>
+						<li class="footer__sub-item">
+							<h2 class="footer__ttl">Whatsapp</h2>
+							<ul>
+								<li><a href="#">+971 4 540 9916</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="footer__lang" data-da=".footer__column,767.98,1">
+						<li class="footer__lang-icon">
+							<i>
+								<img src="img/lang_icon.svg" alt="language icon" />
+							</i>
+						</li>
+						<li>
+							<a href="#" class="active">EN</a>
+						</li>
+						<li>
+							<a href="#">RU</a>
+						</li>
+					</ul>
+				</div>
+				<!-- data-da=".footer__column,767.98,1" -->
+				<nav class="footer__menu" data-da=".footer__column,767.98,2">
+					<div class="footer__prop">
+						<h3 class="footer__ttl">PROPERTIES</h3>
+						<ul>
+							<li><a href="#">Buy</a></li>
+							<li><a href="#">Rent</a></li>
+							<li><a href="#">Off Plan</a></li>
+							<li><a href="#">Holiday Homes</a></li>
+							<li><a href="#">Commercial</a></li>
+							<li><a href="#">Lands</a></li>
+							<li><a href="#">Renovation Service</a></li>
+							<li><a href="#">List Your Properties</a></li>
+						</ul>
+					</div>
+					<div class="footer__prop">
+						<h3 class="footer__ttl">ABOUT</h3>
+						<ul>
+							<li><a href="#">Our Team</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="footer__down">
+				<div class="footer__container">
+					<div class="footer__rights">
+						&copy;2021WiseView. All rights reserved
+					</div>
+					<ul class="footer__terms">
+						<li><a href="#" target="_blank">Privacy</a></li>
+						<li><a href="#" target="_blank">Terms</a></li>
+					</ul>
+					<div class="footer__social">
+						<h3 class="footer__ttl">Follow Us</h3>
+						<ul>
+							<li>
+								<a href="#" target="_blank" class="_icon-facebook"></a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="_icon-instagram"></a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="_icon-twitter"></a>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="_icon-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js?_v=20260205180323"></script>
+	<script src="js/app.js?_v=20260205180323"></script>
+	<div
+		style="position: fixed; bottom: 20px; right: 20px; z-index: 10000; background: rgba(0,0,0,0.8); padding: 10px; border-radius: 8px; color: white; display: flex; flex-direction: column; gap: 5px;">
+		<label for="opacity-slider" style="font-family: sans-serif; font-size: 12px; margin-bottom: 5px;">Ref
+			Opacity</label>
+		<input type="range" id="opacity-slider" min="0" max="1" step="0.05" value="0.0" style="cursor: pointer;">
+	</div>
+	<script>
+		const slider = document.getElementById('opacity-slider');
+		const refImg = document.getElementById('reference_img');
+		if (slider && refImg) {
+			slider.addEventListener('input', (e) => {
+				refImg.style.opacity = e.target.value;
+			});
+		}
+	</script>
+</body>
+
+</html>
